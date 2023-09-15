@@ -16,7 +16,7 @@ export default async function Pokemon() {
 
   // Add an artificial delay to simulate a slow API and show the loading UI
   await new Promise((resolve) => {
-    setTimeout(resolve, 3000);
+    setTimeout(resolve, 4000);
   }).then(() => {
     throw new Error('Something went wrong');
   });
